@@ -9,3 +9,7 @@ int main() {
 
 	cout << "Masukkan Nama file : ";
 	cin >> NamaFile;
+
+    ofstream outfile;
+	outfile.open(NamaFile + ".txt", ios::out);
+	cout << ">= Menulis file, \'q\' untuk keluar" << endl;
