@@ -22,3 +22,5 @@ while (true) {
 	}
 
     outfile.close();
+
+    ifstream infile;
