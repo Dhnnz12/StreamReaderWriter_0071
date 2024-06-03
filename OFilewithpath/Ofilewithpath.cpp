@@ -20,3 +20,5 @@ while (true) {
 	if (baris == "q") break;
 	outfile << baris << endl;
 	}
+
+    outfile.close();
